@@ -11,6 +11,10 @@
         {
             "name":"powertoys",
             "url":"https://github.com/microsoft/PowerToys/releases/download/v0.31.2/PowerToysSetup-0.31.2-x64.exe"
+        },
+        {
+            "name":"7zip",
+            "url":"https://www.7-zip.org/a/7z1900.exe"
         }
     ]
 }
