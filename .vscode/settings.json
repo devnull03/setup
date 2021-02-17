@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnType": true
+}

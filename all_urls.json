@@ -1,0 +1,36 @@
+{
+    "exe":[
+        {
+            "name":"vscode", 
+            "url":"https://aka.ms/win32-user-stable"
+        },
+        {
+            "name":"git", 
+            "url":"https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-32-bit.exe"
+        },
+        {
+            "name":"discord",
+            "url":"https://discord.com/api/download?platform=win"
+        },
+        {
+            "name":"minecraft",
+            "url":"https://tlauncher.org/installer"
+        },
+        {
+            "name":"steamSetup",
+            "url":"https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe"
+        }
+    ],
+    "zip":[
+        {
+            "name":"T-Clock",
+            "url":"https://github.com/White-Tiger/T-Clock/releases/download/v2.1.0%2357/T-Clock.zip"
+        }
+    ],
+    "msi":[
+        {
+            "name":"EpicInstaller",
+            "url":"https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi"
+        }
+    ]
+}
