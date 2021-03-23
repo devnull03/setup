@@ -1,7 +1,6 @@
 from typing import Dict, List
 import requests
 import json
-import subprocess
 import os, sys
 from rich.console import Console
 from rich.progress import track
@@ -55,18 +54,12 @@ class Setup :
 				console.log("Installed all apps", style='bold green')
 		
 	def extraStuff(self):
-		commands: list = list(map(lambda x: x.strip(), """
-		code --install-extension GitHub.github-vscode-theme
-		code --install-extension ms-python.python
-		code --install-extension ms-python.vscode-pylance
-		code --install-extension ms-toolsai.jupyter
-		code --install-extension PKief.material-icon-theme
-		code --install-extension esbenp.prettier-vscode
-		""".splitlines()))
+		with open("./.vscode/extensions.json", 'r') as file:
+			commands = json.loads(file.read())["recommendations"]
 		with console.status("[bold green]Running additional commands....") as status:
-			for i in commands:
-				# process = subprocess.run(i.split())
-				os.system(i)
+			for command in commands:
+				command:str = "code --install-extension " + command
+				os.system(command)
 	
 
 if __name__ == "__main__":
