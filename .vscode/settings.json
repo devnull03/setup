@@ -5,5 +5,17 @@
     "workbench.colorTheme": "GitHub Dark",
     "editor.fontLigatures": true,
     "explorer.confirmDragAndDrop": false,
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorStyle": "block-outline",
+    "vim.insertModeKeyBindings": [
+     {
+         "before": ["j", "j"],
+         "after": ["<esc>", "l"]
+     }
+    ],
+    "editor.lineNumbers": "on",
+    "python.languageServer": "Pylance"
 }

@@ -1,8 +1,10 @@
 {
     "recommendations": [
-        "pkief.material-icon-theme",
         "github.github-vscode-theme",
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "pkief.material-icon-theme",
+        "vscodevim.vim"
     ]
 }
