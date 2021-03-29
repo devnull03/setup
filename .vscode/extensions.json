@@ -5,6 +5,7 @@
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter",
         "pkief.material-icon-theme",
-        "vscodevim.vim"
+        "vscodevim.vim",
+        "coenraads.bracket-pair-colorizer-2"
     ]
 }
